@@ -1,6 +1,7 @@
 body{
-    background-color: blueviolet;
+    background-image: repeating-linear-gradient(purple, rgb(235, 60, 194), blue);
     text-align: center;
+    background-attachment: fixed;
 }
 
 #jogo{

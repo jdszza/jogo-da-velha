@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Jogo da Velha</title>
-</head>
-<body>
-    <h1>Jogo da Velha</h1>
-    <div id="jogo">
-        <div class="linha">
-            <div class="casa" id="casa1"></div>
-            <div class="casa" id="casa2"></div>
-            <div class="casa" id="casa3" style="border-right: 0px;"></div>
-        </div>
-        <div class="linha">
-            <div class="casa" id="casa4"></div>
-            <div class="casa" id="casa5"></div>
-            <div class="casa" id="casa6" style="border-right: 0px;"></div>
-        </div>
-        <div class="linha">
-            <div class="casa" id="casa7"></div>
-            <div class="casa" id="casa8"></div>
-            <div class="casa" id="casa9" style="border-right: 0px;"></div>
-        </div>
+  </head>
+  <body>
+    <div id="title" class="title">
+        <h1>Jogo da Velha</h1>
     </div>
-    <div id="resultado"></div>
-</body>
+
+    <div id="game-board" class="board">
+      <!-- Cada célula do tabuleiro -->
+      <div class="cell" onclick="handleClick(0)"></div>
+      <div class="cell" onclick="handleClick(1)"></div>
+      <div class="cell" onclick="handleClick(2)"></div>
+      <div class="cell" onclick="handleClick(3)"></div>
+      <div class="cell" onclick="handleClick(4)"></div>
+      <div class="cell" onclick="handleClick(5)"></div>
+      <div class="cell" onclick="handleClick(6)"></div>
+      <div class="cell" onclick="handleClick(7)"></div>
+      <div class="cell" onclick="handleClick(8)"></div>
+    </div>
+
+    <div id="message" class="message"></div>
+    <button id="restart-button" onclick="reiniciarJogo()">
+      Reiniciar Jogo
+    </button>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

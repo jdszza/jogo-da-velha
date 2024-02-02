@@ -1,0 +1,25 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+#jogo{
+    width:608px;
+    height: 600px;
+    border:solid 4px;
+    margin: auto;
+    background-color: aliceblue;
+}
+ 
+.linha{
+    height:200px;
+    border :solid 1px;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border :solid 1px;
+    border-color: black;
+    float: left;
+}

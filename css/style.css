@@ -30,7 +30,7 @@ body {
 
 #message {
   margin-top: 20px;
-  margin-bottom: 10px; /* Adicione esta linha para espaçamento abaixo da mensagem */
+  margin-bottom: 10px;
   font-size: 18px;
   text-align: center;
 }
